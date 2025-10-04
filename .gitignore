@@ -1,0 +1,25 @@
+# Ignore environment and secret files
+.env
+.env.local
+
+# Python cache and build files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# Virtual environment folders
+venv/
+.venv/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
